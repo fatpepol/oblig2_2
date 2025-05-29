@@ -1,0 +1,66 @@
+/* GENERAL */
+img {
+  width: 500px;
+  height: 500px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* MAIN */
+.sectionHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartWheelSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartWheelDiv {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.doIt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+}
+
+@media (max-width: 849px) {
+  .cartWheelImg {
+    max-width: 300px;
+  }
+
+  .textDiv {
+    gap: 50px;
+  }
+}
+
+/* FOOTER */
